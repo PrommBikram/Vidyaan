@@ -1,0 +1,139 @@
+*{
+    margin: opx;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.nav{
+    background-color: black;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav ul{
+   overflow: auto; 
+}
+.nav li{
+    float: left;
+    list-style: none;
+   margin: 13px 20px ;
+}
+.nav li a{
+    padding: 3px;
+    text-decoration: none;
+    color: skyblue;
+}
+.SEARCH{
+    float: right;
+    color: beige;
+    padding: 12px 75px;
+}
+.nav input{
+    border:  none;
+    border-radius: 15px;
+    padding: 3px 17px ;
+    width: 129px;
+
+}
+.box-main{
+    display: flex;
+    
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    height: 80%;
+}
+.main img{
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+.firsthalf{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.text-big{
+    font-size: 35px;
+
+}
+.text-small{
+    font-size: 15px;
+
+}
+.btn{
+    padding: 8px 20px;
+margin:7px 15px;
+border: 2px solid black;
+border-radius: 8px;
+cursor: pointer;
+color: rgb(4, 27, 48);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.htsecrig{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    background-color: wheat;
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.crd{
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.card01{
+    background-image: url(/img/c-logo-removebg-preview.png);
+}
+.card02{
+    background-image: url(/img/Python-logo-notext.svg-removebg-preview.png);
+}
+.card03{
+    background-image: url(/img/Microsoft_Office_Excel__2019_present_.svg-removebg-preview.png);
+}
+button{
+    border-radius: 10px;
+    margin-left: 118px;
+    padding: 10px;
+
+}
+
+
+
+.btne{
+   
+    padding: 8px 20px;
+margin:7px 0;
+border:2px solid black;
+border-radius: 8px;
+cursor: pointer;
+color: rgb(4, 27, 48);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.secleft img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+
+.contact{
+    background-color: lightgrey;
+}
+
+.text-center{
+    text-align: center;
+}
